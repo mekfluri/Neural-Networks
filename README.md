@@ -28,12 +28,6 @@ Kao pobednička arhitektura izabran je **Deep Model** koji koristi:
 * **Regularizaciju:** `Dropout` od 20% do 30% radi sprečavanja preprilagođavanja (*overfitting*).
 * **Optimizator:** `Adam` sa funkcijom gubitka `binary_crossentropy`.
 
-## Rezultati i evaluacija
-Model je treniran uz mehanizam **Early Stopping**, koji je prekinuo proces čim je gubitak na validacionom skupu prestao da opada. Postignuti su sledeći rezultati:
-* **Ukupna tačnost (Accuracy):** 96%
-* **Preciznost (Precision):** 0.97 (za klasu zadovoljnih putnika)
-* **Odziv (Recall):** 0.98 (za klasu nezadovoljnih putnika)
-
 Analiza matrice konfuzije pokazuje minimalan broj lažno pozitivnih i lažno negativnih rezultata, što potvrđuje visoku pouzdanost modela u realnim uslovima.
 
 ## Korišćene tehnologije
